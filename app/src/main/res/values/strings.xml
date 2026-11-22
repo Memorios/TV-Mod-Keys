@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TV Modifier Keys</string>
+    <string name="ime_label">TV Modifier Keys (hardware keyboard)</string>
+    <string name="btn_enable">1. Enable keyboard in settings</string>
+    <string name="btn_pick">2. Choose active keyboard</string>
+    <string name="instructions">Test screen. Click the box below, hold Shift and press 1, then read the log.\n\nRAW = what the app window receives. IME = what this keyboard service receives.\n\nAuto switch: when your keyboard disconnects the previous keyboard comes back; when it connects this keyboard is selected again. The second part needs, once, over adb:\nadb shell pm grant com.memoar.tvmodkeys android.permission.WRITE_SECURE_SETTINGS\nadb shell pm grant com.memoar.tvmodkeys android.permission.BLUETOOTH_CONNECT\n\nManual switch: button 2.</string>
+</resources>
